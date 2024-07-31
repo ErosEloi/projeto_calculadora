@@ -27,5 +27,5 @@ Com a extensão _LiveServer_ instalada no VScode, rode o codigo fonte com o segu
 ## Expressões de gratidão
 * Um agradecimento ao Prof. Glauco Todesco
 * Para suporte, mande um email para eroseloi873@gmail.com
-* [Meu linkedin]([https://url_do_link](https://www.linkedin.com/in/eros-eloi-493813241/))
+* [Meu linkedin](https://www.linkedin.com/in/eros-eloi-493813241/)
   
