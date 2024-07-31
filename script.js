@@ -31,9 +31,20 @@ function calc(operacoes) {
     // resultado
     document.getElementById("result").value = result;
 
+
+    // logica do historico
     var newHistory = "<div>" + num1 + " " + operacoes + " " + num2 + " " + " = " + result + "</div>";
 
-    document.getElementById("history").innerHTML = newHistory + document.getElementById("history").innerHTML;
+    // logica para mostrar o ultimo resultado no topo da lista
+    var history = document.getElementById("history")
+    document.getElementById("history").innerHTML = newHistory + history.innerHTML;
+
+    // logica para limitar o historico a 10 resultados
+    if (history.children.length > 10) {
+        history.removeChild(history.childNodes[10])
+    }
+
+
 
 }
 
