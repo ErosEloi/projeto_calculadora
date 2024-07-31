@@ -9,12 +9,14 @@ input{
     font-size: 1.2rem;
     margin: 15px 70px;
     border-radius: 5px;
+    text-align: right;
 }
 
 input[type=number]:focus{
     outline: none;
     box-shadow: 0 0 10px #3b59ee;
     border: 1px solid #74d0ff;
+    
 }
 
 button{
@@ -33,20 +35,23 @@ button:hover{
     box-shadow: 0 8px 16px 0 rgb(0, 0, 0, 0.2);
 }
 
-
+p{
+    text-align: right;
+}
 
 .container {
-    width: 600px;
+    width: 800px;
     background-color: #D3D3D3;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: center;
     margin: auto;
     padding: 40px;
     border-radius: 4px;
 }
 
 .calc{
+    width: 50%;
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
@@ -56,3 +61,29 @@ button:hover{
     border-radius: 10px;
     box-shadow: 0 8px 16px 0 rgb(0, 0, 0, 0.2);
 }
+
+.history-title{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.last-operation{
+    color: white;
+    text-align: right;
+    margin: 10px;
+    padding: 20px;
+}
+
+.history{
+    width: 50%;
+    color: white;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgb(0, 0, 0, 0.2);
+    padding: 30px;
+
+}
+

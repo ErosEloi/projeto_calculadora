@@ -33,7 +33,7 @@ function calc(operacoes) {
 
 
     // logica do historico
-    var newHistory = "<div>" + num1 + " " + operacoes + " " + num2 + " " + " = " + result + "</div>";
+    var newHistory = "<p>" + num1 + " " + operacoes + " " + num2 + " " + " = " + result + "</p>";
 
     // logica para mostrar o ultimo resultado no topo da lista
     var history = document.getElementById("history")
